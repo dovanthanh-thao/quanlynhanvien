@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhanvien</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Nhân viên</a></li>
+                <li><a href="">Phòng ban</a></li>
+                <li><a href="">Chấm công</a></li>
+                <li><a href="">Báo cáo</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <button>Đăng nhập</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="main-header">
+                <h1>Quản lý nhân viên</h1>
+            </div>
+
+            <div class="page-content">
+                <div class="form-section">
+                    <h2>Thông tin nhân viên</h2>
+                </div>
+                <form id="family">
+                    <div class="form-inputs">
+                        Mã nhân viên <input type="text"> <br>
+                        Họ tên <input type="text"> <br>
+                        Tuổi <input type="number" name="age" min="18"> <br>
+                        Giới tính 
+                        <input type="radio" name="sex" value="1"> Nam
+                        <input type="radio" name="sex" value="2"> Nữ <br>
+                        Phòng ban <input type="text"> <br>
+                        Lương <input type="number"> <br>
+                    </div>
+                </form>
+            </div>
+
+            <div class="table">
+                <h2>Danh sách nhân viên</h2>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <th>Mã NV</th>
+                        <th>Họ tên</th>
+                        <th>Tuổi</th>
+                        <th>Giới tính</th>
+                        <th>Phòng ban</th>
+                        <th>Chức vụ</th>
+                        <th>Lương</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+         <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h4>HR Management</h4>
+                    <p>Hệ thống quản lý nhân sự dành cho doanh nghiệp hiện đại.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Liên kết</h4>
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Quản lý nhân viên</a></li>
+                            <li><a href="#">Phòng ban</a></li>
+                            <li><a href="#">Báo cáo</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Hỗ trợ</h4>
+                        <ul>
+                            <li><a href="#">Trợ giúp</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HR Management. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
